@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Izdanie.cpp" />
+    <ClCompile Include="Library.cpp" />
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
     <ClInclude Include="Izdanie.h" />
+    <ClInclude Include="Library.h" />
     <ClInclude Include="Magazine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
