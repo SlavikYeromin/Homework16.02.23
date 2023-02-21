@@ -2,6 +2,7 @@
 #include"Book.h"
 #include"Izdanie.h"
 #include"Magazine.h"
+#include"Library.h"
 using namespace std;
 
 int main()
@@ -28,6 +29,22 @@ int main()
 	cout << endl;
 
 	a.show();
+
+	cout << "======================" << endl;
+
+	Library qq;
+	
+	qq.addSmth(new Book("qqqq","wwww",1015,"1213"));
+
+	qq.addSmth(new Book("eee", "zzzz", 909, "qweasdasczx"));
+
+	qq.show_all();
+
+	qq.deleteSmth(1);
+
+	qq.show_all();
+
+	
 
 
 	system("pause");
