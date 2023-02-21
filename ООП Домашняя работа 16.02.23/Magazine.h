@@ -9,9 +9,9 @@ protected:
 	vector<string> statya;
 public:
 	Magazine();
-	Magazine(string nazvanie, string author, int god_izdaniya, string statya);
+	Magazine(string nazvanie, string author, int god_izdaniya, string statia);
 
-	string getStatya()const;
+	string getStatya(int y)const;
 	void addStatya(string q);
 
 	void show()const override;
