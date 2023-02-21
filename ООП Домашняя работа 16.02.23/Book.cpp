@@ -5,7 +5,7 @@ Book::Book()
     rezyme = "Undefined";
 }
 
-Book::Book(string nazvanie, string author, int god_izdaniya, string rezyme)
+Book::Book(string nazvanie, string author, int god_izdaniya, string rezyme):Izdanie(nazvanie,author,god_izdaniya)
 {
     this->rezyme = rezyme;
 }
