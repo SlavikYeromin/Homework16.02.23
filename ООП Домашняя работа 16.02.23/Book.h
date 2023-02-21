@@ -1,5 +1,6 @@
 #pragma once
 #include "Izdanie.h"
+using namespace std;
 
 class Book:public Izdanie
 {
