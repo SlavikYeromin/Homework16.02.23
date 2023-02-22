@@ -31,7 +31,7 @@ void Library::show_all() const
 
 void Library::addSmth(Izdanie* obj)
 {
-    array.push_back(obj);
+        array.push_back(obj);  
 }
 
 void Library::deleteSmth(int ind)

@@ -11,5 +11,5 @@ BookException::BookException(string name)
 
 string BookException::Message() const
 {
-    return "Book" + name + "has wrong Book";
+    return "Book" + name + " has wrong name";
 }

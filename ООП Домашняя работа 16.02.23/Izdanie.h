@@ -1,6 +1,10 @@
 #pragma once
 #include<string>
 #include<iostream>
+#include"PublicationException.h"
+#include"BookException.h"
+#include"EditionYearException.h"
+
 using namespace std;
 
 class Izdanie
@@ -19,6 +23,7 @@ public:
 	string getAuthor()const;
 	void setGodIzdaniya(int god_izdaniya);
 	int getGodIzdaniya()const;
+
 
 	virtual void show()const = 0;
 
