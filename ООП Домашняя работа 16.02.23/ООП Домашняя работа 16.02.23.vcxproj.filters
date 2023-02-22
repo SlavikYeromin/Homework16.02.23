@@ -36,6 +36,9 @@
     <ClCompile Include="BookException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EditionYearException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Izdanie.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BookException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditionYearException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
